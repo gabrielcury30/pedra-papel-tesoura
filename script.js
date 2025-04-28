@@ -12,6 +12,11 @@ const valorEscolhidoComputador = () => {
 }
 
 // 2 - Fazer o usuário escolher entre pedra papel e tesoura
+const valorEscolhidoUsuario = () => {
+    const valorUsuario = prompt("Faça a escolha entre Pedra, Papel, ou, Tesoura!")
+    return valorUsuario
+}
+
 // 3 - Comparar as escolhas do usuário com a do computador para ver o vencedor
 // 4 - Regras: pedra > tesoura, tesoura > papel, papel > pedra
 // 5 - Imprimir o vencedor
